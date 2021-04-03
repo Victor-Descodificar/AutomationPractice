@@ -21,4 +21,3 @@ Get Json Values
     ${json}=  Get file    ${CURDIR}/../resources/creds.json
     ${VALUES}=  Evaluate  json.loads('''${json}''')  json
     Set Global Variable   ${VALUES}
-    Log to console  ${VALUES["first_name"]}

@@ -1,4 +1,18 @@
 {
+    "email": "princessdiana2@avengers.com",
+    "password": "justice",
     "first_name": "Diana",
-    "last_name": "Montoya"
+    "last_name": "Themyscira",
+    "birthday_year": "1941",
+    "birthday_month": "9",
+    "birthday_day": "25",
+    "company": "Avengers",
+    "address": "Wall Street",
+    "city": "New York",
+    "state": "New York",
+    "postal_code": "00000",
+    "country": "United States",
+    "home_phone": "09090099",
+    "mobile_phone": "44455566677",
+    "reference_address": "My Address"
 }
