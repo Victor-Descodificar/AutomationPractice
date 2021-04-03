@@ -1,0 +1,49 @@
+# Global locators
+PAGE_INDEX:
+  URL:              http://automationpractice.com/index.php
+  LOGIN_BUTTON:     //a[contains(text(),"Sign in")]
+  EMAIL_CREATE:     email_create
+  CREATE_ACCOUNT_BUTTON:  //*[@id="SubmitCreate"]
+
+USER_PAGE:
+  USER_NAME:  //span[contains(text(),"Diana Themyscira")]
+
+LOGIN_PAGE:
+  EMAIL_ADDRESS:    email
+  PASSWORD:         passwd
+  SIGN_IN_BUTTON:   SubmitLogin
+  SING_OUT_BUTTON:  //a[contains(text(),"Sign out")]
+  FORGOT_PASSWORD:  //a[contains(text(),"Forgot your password?")]
+
+FORGOT_PASSWORD_PAGE:
+  EMAIL_ADDRESS:             email
+  RETRIEVE_PASSWORD_BUTTON:  //span[contains(text(),"Retrieve Password")]
+  SUCCESS_MESSAGE:           //p[contains(text(),'A confirmation email has been sent to your address')]
+
+CREATE_ACCOUNT_PAGE:
+  PERSONAL_INFORMATION:
+    TITLE_MR:                  //*[@id="id_gender1"]
+    TITLE_MS:                  //*[@id="id_gender2"]
+    FIRST_NAME:                customer_firstname
+    LAST_NAME:                 customer_lastname
+    EMAIL:                     email
+    PASSWORD:                  passwd
+    BIRTHDAY_YEAR:             days
+    BIRTHDAY_MONTH:            months
+    BIRTHDAY_DAY:              years
+  ADDRESS:
+    FIRST_NAME:                firstname
+    LAST_NAME:                 lastname
+    COMPANY:                   company
+    ADDRESS:                   address1
+    ADDRESS_2:                 address2
+    CITY:                      city
+    STATE:                     id_state
+    POSTAL_CODE:               postcode
+    COUNTRY:                   id_country
+    ADITIONAL_INFORMATION:     other
+    HOME_PHONE:                phone
+    MOBILE_PHONE:              phone_mobile
+    FUTURE_REFERENCE_ADDRESS:  alias
+  REGISTER_BUTTON:             //*[@id="submitAccount"]/span
+
